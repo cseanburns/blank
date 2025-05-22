@@ -1,3 +1,5 @@
+# blank Vim Colorscheme
+
 *blank* is a minimal colorscheme for Vim in the terminal.
 GVim is not (yet) supported.
 
