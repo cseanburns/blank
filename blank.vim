@@ -2,7 +2,7 @@
 " Description: A fairly blank vim colorscheme for terminal Vim
 " Author: C. Sean Burns <sean.csb@gmail.com>
 " Source: https://github.com/cseanburns/blank
-" Last modified: 05.31.2025
+" Last modified: 06.29.2025
 "
 " Minimal highlighting for: visual mode, matching parentheses, spelling errors, search
 " Keep markdown formatting for: **bold**, *italic*, ~~strikethrough~~, [links](links) 
@@ -16,6 +16,9 @@ if exists("syntax on")
 endif
 
 let g:colors_name="blank"
+
+" cterm color cheat sheet
+" https://www.ditig.com/256-colors-cheat-sheet
 
 hi Normal              ctermfg=15 ctermbg=NONE  cterm=NONE
 
@@ -54,7 +57,7 @@ hi ErrorMsg            ctermfg=NONE  ctermbg=NONE cterm=underline
 hi Directory           ctermfg=NONE  ctermbg=NONE cterm=NONE
 hi netrwDir            ctermfg=NONE  ctermbg=NONE cterm=NONE
 
-hi Pmenu               ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi Pmenu               ctermfg=9     ctermbg=NONE  cterm=NONE
 hi PmenuSbar           ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi PmenuThumb          ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi PmenuSel            ctermfg=NONE  ctermbg=NONE  cterm=NONE
