@@ -2,7 +2,7 @@
 " Description: A fairly blank vim colorscheme for terminal Vim
 " Author: C. Sean Burns <sean.csb@gmail.com>
 " Source: https://github.com/cseanburns/blank
-" Last modified: 06.29.2025
+" Last modified: 07.03.2025
 "
 " Minimal highlighting for: visual mode, matching parentheses, spelling errors, search
 " Keep markdown formatting for: **bold**, *italic*, ~~strikethrough~~, [links](links) 
@@ -29,7 +29,7 @@ hi NonText             ctermfg=NONE  ctermbg=NONE cterm=NONE
 
 hi Statusline          ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi StatuslineNC        ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi Visual              ctermfg=15    ctermbg=0     cterm=NONE
+hi Visual              ctermfg=0     ctermbg=15    cterm=NONE
 
 hi ColorColumn         ctermfg=NONE ctermbg=NONE cterm=NONE
 
