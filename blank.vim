@@ -47,7 +47,7 @@ hi VertSplit           ctermfg=NONE  ctermbg=NONE cterm=NONE
 hi SignColumn          ctermfg=NONE  ctermbg=NONE cterm=NONE
 
 hi MatchParen          ctermfg=9     ctermbg=15   cterm=NONE
-hi Search              ctermfg=0     ctermbg=15   cterm=NONE
+hi Search              ctermfg=9     ctermbg=15   cterm=NONE
 hi IncSearch           ctermfg=0     ctermbg=15   cterm=bold
 
 hi TODO                ctermfg=NONE  ctermbg=NONE cterm=NONE
