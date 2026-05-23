@@ -9,7 +9,7 @@ for coding or writing text.
 The goal of this colorscheme is to remove most color-based syntax highlighting but support: 
 
 - Markdown formatting for `**bold**`, `*italics*`, `~~strikethrough~~`, and `[links](links)`.
-- Color support is (currently) retained for visual mode, matching parentheses, spelling errors, and search.
+- Color support is retained for visual mode, matching parentheses, spelling errors, and search.
 
 By default, Vim's background and foreground colors should mirror your terminal's colors.
 
